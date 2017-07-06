@@ -1,14 +1,14 @@
 # Content-Pipeline
 This project is used to create run time assets for game project in cocos 2d platform.
 
-##Usage
+## USAGE
 
 - batch conversion of multiple files: `pngquant 256 *.png`
 - Unix-style stdin/stdout chaining: `… | pngquant 16 | …`
 
 To further reduce file size, you may want to consider [optipng](http://optipng.sourceforge.net) or [ImageOptim](http://imageoptim.pornel.net).
 
-###BATCH FILES
+### BATCH FILES
 Originally produced by Thomas Rutter, now with minor amendments by BJ.
 
 You can drag and drop your 24-bit PNGs onto these batch files as an easy way
@@ -17,7 +17,7 @@ non-dithered optimised copies of the source PNGs will be created in the same
 directory as the originals. The batch files must remain in the same directory
 as pngquant.exe.
 
-##Options
+## OPTIONS
 
 See `pngquant -h` for full list.
 
